@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 config = ConfigParser.ConfigParser()
 config.read("config.ini")
 
-appid  = config.get("Application", 'AppId')
+appid = config.get("Application", 'AppId')
 appkey = config.get("Application", 'AppKey')
 
 username = config.get("Authentication", 'UserName')
